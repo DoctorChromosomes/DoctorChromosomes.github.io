@@ -1,7 +1,7 @@
-- var thatWasEasy = new Audio("High Frequency - Sound effect.mp3");
-- thatWasEasy.play();
+var earrape = new Audio("High Frequency - Sound effect.mp3");
 
-+ function sayThatWasEasy() {
-+   var thatWasEasy = new Audio("High Frequency - Sound effect.mp3");
-+   thatWasEasy.play();
-+ }
+function earrape() {
+    earrape.play();
+}
+
+ $("#easy").on("click", earrape);
