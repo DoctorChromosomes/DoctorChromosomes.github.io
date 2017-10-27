@@ -15,3 +15,11 @@ img {
     background-size: cover;
     padding: 50px;
 }
+
+.px100 {
+    width: 100px;
+}
+
+.px200 {
+    width: 100px;
+}
