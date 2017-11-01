@@ -1,9 +1,36 @@
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 body {
     text-align: center;
     font-family: "Arial";
     background-color: #EE82EE
 }
-
+#container ul{
+    list-style:none;
+}
+#container ul li{
+    background-color:#B86BA3;
+    width:150px;
+    border:1px solid;
+    line-height:50px;
+    text-align:center;
+    float:left;
+}
 img {
     width: 300px;
     z-index: 99;
