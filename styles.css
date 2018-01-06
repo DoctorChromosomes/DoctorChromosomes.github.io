@@ -1,31 +1,21 @@
-#top, #bottom, #left, #right {
-	background: #a5ebff;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
+
 body {
+    margin-bottom: 100px;;
+    margin-right: 300px;
+    position:fixed;
+    border-style:hidden;
+    border: solid 100px #EE82EE;
     text-align: center;
     font-family: "Arial";
     background-color: #EE82EE
 }
+
 #container ul{
     list-style:none;
 }
 #container ul li{
     background-color:#B86BA3;
-    width:150px;
+    width:10vw;
     border:1px solid;
     line-height:50px;
     text-align:center;
@@ -44,9 +34,11 @@ img {
 }
 
 .px100 {
+    text-align: center;
     width: 100px;
 }
 
 .px200 {
+    text-align: center;
     width: 100px;
 }
